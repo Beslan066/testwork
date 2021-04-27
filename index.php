@@ -52,7 +52,7 @@ require_once 'config/db.php';
                         ?>
                         
                         <div class="wrapper" id="contacts">
-                            <span class="name-span"></span><?= $contact[1] ?><span><a data-id="$id" id="delete" href="vendor/delete.php?id=<?= $contact[0] ?>"> x</a></span><br>
+                            <span class="name-span"></span><?= $contact[1] ?><span><a href="vendor/delete.php?id=<?= $contact[0] ?>"> x</a></span><br>
                             <span class="phone-span"><?= $contact[2] ?></span><br>
                         </div>
                         <hr>
